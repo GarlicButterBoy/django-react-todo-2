@@ -1,5 +1,6 @@
 import _ from "lodash";
-import { GET_TODOS, ADD_TODO } from '../actions/types'; // added ADD_TODO
+import { GET_TODOS, ADD_TODO } from "../actions/types";
+ADD_TODO;
 
 export default (state = {}, action) => {
   switch (action.type) {

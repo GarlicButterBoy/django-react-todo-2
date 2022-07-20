@@ -7,7 +7,7 @@ class Dashboard extends Component {
     return (
       <div className="ui container">
         <div>Todo Create Form</div>
-        <TodoCreate />
+        <TodoCreate /> 
         <TodoList />
       </div>
     );
@@ -15,3 +15,4 @@ class Dashboard extends Component {
 }
 
 export default Dashboard;
+

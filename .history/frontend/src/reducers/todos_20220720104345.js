@@ -8,7 +8,7 @@ export default (state = {}, action) => {
         ...state,
         ..._.mapKeys(action.payload, "id"),
       };
-    case ADD_TODO:
+    case ADD_TODO: 
       return {
         ...state,
         [action.payload.id]: action.payload,
